@@ -1,0 +1,41 @@
+/* Creating Section Styling */
+
+.creating-section {
+    display: flex;
+    align-items: left;
+    /* justify-content: center; */
+    text-align: left;
+    /* padding: 0px 20px; */
+    background-color: #000;
+    /* Background color */
+    color: #fff;
+    /* Text color */
+}
+
+.creating-content {
+    max-width: 800px;
+    align-items: left;
+    padding-left: 150px;
+}
+
+.creating-content h1 {
+    font-size: 15rem;
+    font-weight: bold;
+    color: #00ffcc;
+    /* Highlight color for "Creating" */
+    margin-bottom: 20px;
+}
+
+.creating-content h4 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0px 0;
+    line-height: 1.6;
+}
+
+
+/* Add spacing between the two paragraphs */
+
+.creating-content p:nth-child(2) {
+    margin-top: 5px;
+}

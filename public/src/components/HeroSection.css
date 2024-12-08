@@ -1,0 +1,61 @@
+/* Hero Section Styling */
+
+.hero-section {
+    background-color: #000;
+    /* Dark background */
+    padding: 80px 20px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    /* To position the text in the lower-left corner */
+    width: 90%;
+    /* Section occupies 90% width */
+    margin: 0 auto;
+    /* Center the section horizontally */
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    width: 100%;
+}
+
+.highlight-text {
+    font-size: 10rem;
+    /* Large font size for the highlighted text */
+    color: white;
+    text-align: center;
+    /* Highlighted color for 'innovation' */
+    font-weight: bold;
+    margin: 0;
+}
+
+.highlight-join {
+    font-size: 4rem;
+    /* Slightly smaller size for "Join 400+" */
+    color: #e9c202db;
+    /* Highlight color for "Join 400+" */
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 1.5rem;
+    /* margin-top: 20px; */
+    /* position: absolute; */
+    bottom: 20px;
+    left: 20px;
+    color: #ccc;
+    text-align: right;
+    /* Light gray for the sub-text */
+}
+
+.hero-section h2 {
+    margin-top: 0;
+    /* Remove margin for the second part of the heading */
+}

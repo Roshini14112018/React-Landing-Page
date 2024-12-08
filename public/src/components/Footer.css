@@ -1,0 +1,51 @@
+/* Footer Styling */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 100px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* Ensures left and right alignment */
+    align-items: center;
+    /* Line separating main footer content */
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #b12424;
+    /* Space between links */
+}
+
+.footer-left a {
+    color: #323030;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-left a:hover {
+    color: #00ffcc;
+    /* Highlight color on hover */
+}
+
+.footer-left span {
+    color: #555;
+    /* Separator color */
+}
+
+.footer-right {
+    font-size: 0.9rem;
+    color: #323030;
+}
+
+.footer-right p {
+    margin: 0;
+}

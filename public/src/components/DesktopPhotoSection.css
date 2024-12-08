@@ -1,0 +1,22 @@
+/* Desktop Photo Section Styling */
+
+.desktop-photo-section {
+    background-color: #000;
+    /* Matches the dark theme */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.desktop-photo-container {
+    width: 80%;
+    /* The image container occupies 80% width */
+}
+
+.desktop-photo {
+    width: 100%;
+    /* The image fills the container */
+    height: auto;
+    /* Maintain the aspect ratio */
+}
